@@ -1,0 +1,12 @@
+.home .cars-container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+}
+
+.home .cars-container .car-details {
+    background-color: #fff;
+}
+
+.home .cars-container .car-details img {
+    width: 300px;
+}
