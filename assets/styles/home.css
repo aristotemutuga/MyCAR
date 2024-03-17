@@ -1,12 +1,33 @@
 .home .cars-container {
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 25%);
 }
 
 .home .cars-container .car-details {
     background-color: #fff;
+    /* display: flex; */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .home .cars-container .car-details img {
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .cars-container .car-details .name-price{
+    padding: 10px;
+}
+
+.home .cars-container .car-details .name-price h3{
+    padding: 0;
+    margin: 0;
+}
+
+.home .cars-container .car-details button{
+    width: 100%;
+    font-size: large;
+    cursor: pointer;
 }
