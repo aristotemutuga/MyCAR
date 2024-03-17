@@ -1,3 +1,6 @@
+.home{
+    margin-top: 70px;
+}
 .home .cars-container {
     display: grid;
     grid-template-columns: repeat(4, 25%);

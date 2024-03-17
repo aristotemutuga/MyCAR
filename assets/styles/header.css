@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    background-color: #292424;
+    padding: 20px 50px;
+    color: #fff;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.header .middle-nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.header .middle-nav a:hover{
+    background-color: blue;
+}
+
+.header .right-nav a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header .right-nav a:hover{
+    background-color: blue;
+}
