@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/styles/home.css">
     <link rel="stylesheet" href="assets/styles/header.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/form.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <a href="#">About Us</a>
         </div>
         <div class="right-nav">
-            <a href="#">Login</a>
-            <a href="#">Register</a>
+            <a href="login.php">Login</a>
+            <a href="register.php">Register</a>
         </div>
     </div>

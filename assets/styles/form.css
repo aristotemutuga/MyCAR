@@ -1,0 +1,9 @@
+fieldset{
+    max-width: 500px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 10px;
+}
